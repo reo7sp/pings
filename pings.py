@@ -14,7 +14,7 @@ def main() -> NoReturn:
         dest_email = os.getenv("DEST_EMAIL")
         from_email = os.getenv("FROM_EMAIL")
         mailgun_domain = os.getenv("MAILGUN_DOMAIN")
-        mailgun_api_key = os.getenv("MAINGUN_API_KEY")
+        mailgun_api_key = os.getenv("MAILGUN_API_KEY")
         assert pings_str is not None
         assert freq_str is not None
         assert dest_email is not None
